@@ -1,0 +1,19 @@
+uuid: e7f8cdcc-ddc0-4124-9473-0143510183f8
+langcode: es
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product.field_resumen
+field_name: field_resumen
+entity_type: commerce_product
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

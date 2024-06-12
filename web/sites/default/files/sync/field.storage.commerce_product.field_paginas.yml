@@ -1,0 +1,20 @@
+uuid: 76601f08-9940-4f13-935e-a0fa227f9dd6
+langcode: es
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product.field_paginas
+field_name: field_paginas
+entity_type: commerce_product
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

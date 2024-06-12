@@ -1,0 +1,9 @@
+uuid: 533ca097-95cc-4c16-8615-279997d7d221
+langcode: es
+status: true
+dependencies: {  }
+currencyCode: ARS
+name: 'peso argentino'
+numericCode: '032'
+symbol: ARS
+fractionDigits: 2

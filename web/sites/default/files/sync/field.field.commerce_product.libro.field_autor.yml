@@ -1,0 +1,29 @@
+uuid: eaaa83e0-5d29-45aa-84eb-62e328ba09f2
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.libro
+    - field.storage.commerce_product.field_autor
+    - taxonomy.vocabulary.autor
+id: commerce_product.libro.field_autor
+field_name: field_autor
+entity_type: commerce_product
+bundle: libro
+label: Autor
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      autor: autor
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

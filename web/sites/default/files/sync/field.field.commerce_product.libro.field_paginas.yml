@@ -1,0 +1,23 @@
+uuid: 9b27b39f-c017-4650-9c93-025c8f7e4eef
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.libro
+    - field.storage.commerce_product.field_paginas
+id: commerce_product.libro.field_paginas
+field_name: field_paginas
+entity_type: commerce_product
+bundle: libro
+label: páginas
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: páginas
+field_type: integer

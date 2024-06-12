@@ -1,0 +1,11 @@
+uuid: 3c0f78f2-8cfc-4692-b50e-5b7cc7967995
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.coleccion
+id: taxonomy_term.coleccion
+target_entity_type_id: taxonomy_term
+target_bundle: coleccion
+default_langcode: site_default
+language_alterable: false

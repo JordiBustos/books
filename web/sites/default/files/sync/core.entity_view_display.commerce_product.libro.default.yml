@@ -5,7 +5,13 @@ dependencies:
   config:
     - commerce_product.commerce_product_type.libro
     - field.field.commerce_product.libro.body
+    - field.field.commerce_product.libro.field_autor
+    - field.field.commerce_product.libro.field_coleccion
     - field.field.commerce_product.libro.field_imagenes
+    - field.field.commerce_product.libro.field_isbn
+    - field.field.commerce_product.libro.field_paginas
+    - field.field.commerce_product.libro.field_resumen
+    - field.field.commerce_product.libro.field_tamanio
   module:
     - commerce_product
     - image
@@ -22,6 +28,22 @@ content:
     third_party_settings: {  }
     weight: 11
     region: content
+  field_autor:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 18
+    region: content
+  field_coleccion:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 14
+    region: content
   field_imagenes:
     type: image
     label: above
@@ -32,6 +54,38 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: 12
+    region: content
+  field_isbn:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_paginas:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_resumen:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_tamanio:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 17
     region: content
   title:
     type: string

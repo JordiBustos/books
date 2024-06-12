@@ -1,0 +1,19 @@
+uuid: 755ee9d2-1e3e-497d-b0e0-e59db5c89394
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.libro
+    - field.storage.commerce_product.field_tamanio
+id: commerce_product.libro.field_tamanio
+field_name: field_tamanio
+entity_type: commerce_product
+bundle: libro
+label: tamanio
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
