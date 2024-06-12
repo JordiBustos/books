@@ -1,0 +1,18 @@
+name: Aleph
+type: theme
+description: "Tema default para las librerías."
+core_version_requirement: ">=9.3"
+base theme: stable9
+regions:
+  header: "Header"
+  primary_menu: "Primary menu"
+  secondary_menu: "Secondary menu"
+  highlighted: "Highlighted"
+  help: "Help"
+  content: "Content"
+  sidebar_first: "Left sidebar"
+  sidebar_second: "Right sidebar"
+  footer: "Footer"
+  breadcrumb: "Breadcrumb"
+  page_top: "Page top"
+  page_bottom: "Page bottom"

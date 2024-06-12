@@ -28,6 +28,7 @@
         "drupal/redirect": "^1.9",
         "drupal/search_api": "^1.34",
         "drupal/search_api_solr": "^4.3",
+        "drupal/twig_tweak": "^3.3",
         "drupal/webprofiler": "^10.1",
         "drupal/xmlsitemap": "^1.5",
         "drush/drush": "^12.5"
