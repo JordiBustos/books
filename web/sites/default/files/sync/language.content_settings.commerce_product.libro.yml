@@ -1,0 +1,11 @@
+uuid: 0f79af0f-84e7-45c4-9ebe-f226c4b98605
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.libro
+id: commerce_product.libro
+target_entity_type_id: commerce_product
+target_bundle: libro
+default_langcode: site_default
+language_alterable: false

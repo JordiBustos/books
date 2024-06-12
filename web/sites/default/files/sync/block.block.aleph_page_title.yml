@@ -1,0 +1,20 @@
+uuid: 7363f690-b3fd-40d8-b1c1-b8af4ce3da21
+langcode: es
+status: true
+dependencies:
+  theme:
+    - aleph
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: aleph_page_title
+theme: aleph
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: b498fec7-3f64-480d-94c1-bad04efb6009
+langcode: es
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - aleph
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: aleph_search_form_wide
+theme: aleph
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

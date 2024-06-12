@@ -1,0 +1,22 @@
+uuid: 687ccb99-3168-41f6-a062-c956af0eb970
+langcode: es
+status: true
+dependencies:
+  theme:
+    - aleph
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: aleph_primary_local_tasks
+theme: aleph
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

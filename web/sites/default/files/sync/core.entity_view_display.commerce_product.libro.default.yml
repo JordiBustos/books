@@ -1,0 +1,57 @@
+uuid: c17e5c10-60bd-45c2-96a0-fdc9c04366b7
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.libro
+    - field.field.commerce_product.libro.body
+    - field.field.commerce_product.libro.field_imagenes
+  module:
+    - commerce_product
+    - image
+    - text
+id: commerce_product.libro.default
+targetEntityType: commerce_product
+bundle: libro
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_imagenes:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  variations:
+    type: commerce_add_to_cart
+    label: above
+    settings:
+      combine: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+hidden:
+  created: true
+  langcode: true
+  search_api_excerpt: true
+  stores: true
+  uid: true

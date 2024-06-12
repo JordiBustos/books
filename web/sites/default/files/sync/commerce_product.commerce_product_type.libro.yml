@@ -1,0 +1,14 @@
+uuid: cde6fa1f-06c8-439d-92bd-139a38662a99
+langcode: es
+status: true
+dependencies: {  }
+id: libro
+label: Libro
+traits: {  }
+locked: false
+description: ''
+variationType: libro
+variationTypes:
+  - libro
+multipleVariations: true
+injectVariationFields: true

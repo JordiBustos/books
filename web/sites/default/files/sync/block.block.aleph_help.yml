@@ -1,0 +1,22 @@
+uuid: 3e038842-cf2e-4cf1-a59f-20c17a413ef6
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - aleph
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: aleph_help
+theme: aleph
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

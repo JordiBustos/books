@@ -1,0 +1,22 @@
+uuid: d2ad843d-2396-4cea-8d51-0df6cd58fd62
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - aleph
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: aleph_messages
+theme: aleph
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

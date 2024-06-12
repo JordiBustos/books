@@ -1,0 +1,13 @@
+uuid: 81d0b94e-2a6d-4d4a-92e7-fd4415d26ce4
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
+name: Artículo
+type: article
+description: 'Use los <em>artículos</em> para contenido que tenga relevancia temporal como las noticias o las publicaciones en blogs.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

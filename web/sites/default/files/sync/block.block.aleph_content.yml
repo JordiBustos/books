@@ -1,0 +1,22 @@
+uuid: 15a49ad7-5126-449d-9831-da38a1a2bcc9
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - aleph
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: aleph_content
+theme: aleph
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

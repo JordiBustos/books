@@ -1,0 +1,11 @@
+uuid: fbd527b2-f116-409f-a099-12687631313d
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+id: block_content.basic
+target_entity_type_id: block_content
+target_bundle: basic
+default_langcode: site_default
+language_alterable: false

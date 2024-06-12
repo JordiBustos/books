@@ -1,0 +1,10 @@
+uuid: 6eaa725f-a856-4688-9e3f-169f83ed119d
+langcode: es
+status: true
+dependencies: {  }
+id: libro
+label: Libro
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: null
